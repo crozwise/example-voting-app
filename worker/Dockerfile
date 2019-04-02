@@ -6,7 +6,8 @@ FROM java:openjdk-8-jdk-alpine
 # && mv /usr/share/apache-maven-$MAVEN_VERSION /usr/share/maven \
 # && ln -s /usr/share/maven/bin/mvn /usr/bin/mvn
 
-WORKDIR /code
+RUN ["pwd"]
+#WORKDIR /code
 
 #ADD pom.xml /code/pom.xml
 #RUN ["mvn", "dependency:resolve"]
