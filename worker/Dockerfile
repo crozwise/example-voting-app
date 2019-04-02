@@ -7,8 +7,10 @@ FROM java:openjdk-8-jdk-alpine
 # && ln -s /usr/share/maven/bin/mvn /usr/bin/mvn
 
 RUN ["pwd"]
-#WORKDIR /code
-
+WORKDIR /code
+RUN ["pwd"]
+ADD target /code/target
+RUN ["pwd"]
 #ADD pom.xml /code/pom.xml
 #RUN ["mvn", "dependency:resolve"]
 #RUN ["mvn", "verify"]
