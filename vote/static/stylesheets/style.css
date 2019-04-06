@@ -7,8 +7,8 @@ html,body{
   margin: 0;
   padding: 0;
   background-color: black;
-  //background-image: url("vote-bg.png");
-  background-size: cover; 
+  background-image: url("vote-bg.png");
+  //background-size: cover; 
   background-repeat: no-repeat;
   height: 100vh;
   font-family: 'Open Sans';
