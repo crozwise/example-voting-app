@@ -29,7 +29,7 @@ body{
 }
 
 #background-stats-2{
-  background-color: #00cbca;
+  background-color: red;
 }
 
 #content-container{
@@ -89,7 +89,8 @@ body{
 }
 
 #choice .choice.dogs{
-  color: red;
+  color: 
+    ;
   float: right;
 }
 
